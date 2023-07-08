@@ -54,14 +54,7 @@ void setup() {
 // ****** MAIN LOOP ******
 
 void loop() {
-    switch(CurrentState) {
-        case PAUSED: // do nothing
-        break;
-
-        case KEEPING_TIME: // run light chase
-        Light_Chase();
-        break;
-    }
+    Light_Chase();
 }
 
 

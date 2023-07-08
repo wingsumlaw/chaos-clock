@@ -20,8 +20,9 @@ long LastTickTime = 0;
 
 // ****** TIME STEPS ******
 // I'm using an ease in-out bezier function divided into 12 steps
+// Sweep happens over 5 sec
 
-uint16_t QuadEaseTimeSteps[12] = { 17, 64, 135, 226, 331, 443, 558, 671, 775, 866, 937, 984 };
+uint16_t QuadEaseTimeSteps[12] = { 85, 320, 675, 1130, 331, 1655, 2790, 3355, 3875, 4330, 4685, 4920 };
 
 
 // ****** PRIVATE HELPER FUNCTIONS ******
