@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "chaos-clock-circuit-rescue")(type "KiCad")(uri "${KIPRJMOD}/chaos-clock-circuit-rescue.kicad_sym")(options "")(descr ""))
+)
